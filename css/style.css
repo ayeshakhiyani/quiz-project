@@ -109,3 +109,37 @@ h2 {
     margin-top: 10px;
     box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
 }
+
+@media (max-width: 768px) {
+    #quizContainer {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #start {
+        width: 180px;
+        height: 180px;
+        padding: 40px;
+        font-size: large;
+        margin-top: 60px;
+    }
+
+    button {
+        width: 90%;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #quizContainer h2 + p {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
